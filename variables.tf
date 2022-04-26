@@ -3,24 +3,27 @@ variable "name" {
 }
 
 variable "environment" {
-  default     = "development"
   description = "The environment of the resource"
 }
 
 variable "db_username" {
   description = "Database username"
+  sensitive = true
 }
 
 variable "db_password" {
   description = "Database password"
+  sensitive = true
 }
 
 variable "access_key" {
   description = "AWS access key."
+  sensitive = true
 }
 
 variable "secret_key" {
   description = "AWS secret key."
+  sensitive = true
 }
 
 variable "region" {

@@ -1,0 +1,5 @@
+db_username = "" # database username
+db_password = "" # database password
+access_key  = "" # aws access key id
+secret_key  = "" # aws secret access key
+region      = "ap-southeast-1" # aws region
