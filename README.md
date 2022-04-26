@@ -1,7 +1,5 @@
 # Requirements
 
----
-
 Write IaC script for provision of a 3-tier application in AWS. You can choose Terraform or CloudFormation to provide
 the infrastructure. Terraform is most preferred tool. Your code should provision the following:
 
@@ -26,8 +24,6 @@ Delivery Outcome:
 - Proper security groups and IAM roles should be in place.
 
 ## Manual Provisioning
-
----
 
 Multiple environment state can be manage through Terraform workspace.
 
@@ -58,8 +54,6 @@ Multiple environment state can be manage through Terraform workspace.
     ```
 
 ## Automated Provisioning
-
----
 
 Automated provisioning can be done through Github Actions workflow.
 
